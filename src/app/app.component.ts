@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Team } from './models/componente-squadra.model';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '01_Angular_empty';
+  teams!: Team[]
 }
