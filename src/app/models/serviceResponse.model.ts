@@ -1,7 +1,7 @@
 import { Team } from "./componente-squadra.model"
 export class ServiceResponse{
-    data !: Team[];
+    data : Team[];
     constructor(data: Team[]){
-        data = data;
+        this.data = data;
     }
 }

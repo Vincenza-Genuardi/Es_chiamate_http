@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Team } from '../models/componente-squadra.model';
 
 @Component({
   selector: 'app-componente-squadra',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./componente-squadra.component.css']
 })
 export class ComponenteSquadraComponent {
+@Input() team !: Team
 
 }
