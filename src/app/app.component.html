@@ -1,8 +1,10 @@
 <h1>LISTA TEAM</h1>
+<button (click)="onClick()">ordina in base a conferenze/division</button>
 <div>
   <ul>
-      <li *ngFor="let team of teams" >
+      <li *ngFor="let team of teams " >
         <app-componente-squadra [team] = "team" > </app-componente-squadra>
       </li>
   </ul>
+</div>
 
