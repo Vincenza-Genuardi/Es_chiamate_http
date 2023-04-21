@@ -1,5 +1,5 @@
-<div>
-    <h3>SQUADRA:</h3>
+<!-- <div>
+    <h3>{{team.full_name}}</h3>
     <ul>
         <i>
             <li><b>CODICE</b> = {{team.id}}</li>
@@ -11,6 +11,22 @@
             <li><b>NOME</b> = {{team.name}}</li>
         </i>
     </ul>
+    <hr />
+    
+</div>
+ -->
+
+ <div>
+    <h3>{{team.full_name}}</h3>
+        <i>
+            <tr><td><b>CODICE</b></td><td>{{team.id}}</td></tr>
+            <tr><td><b>ABBREVIAZIONE</b></td><td>{{team.abbreviation}}</td></tr>
+            <tr><td><b>CITTÀ</b></td><td>{{team.city}}</td></tr>
+            <tr><td><b>CONFERENZA</b></td><td>{{team.conference}}</td></tr>
+            <tr><td><b>DIVISIONE</b></td><td>{{team.division}}</td></tr>
+            <tr><td><b>NOME COMPLETO</b></td><td>{{team.full_name}}</td></tr>
+            <tr><td><b>NOME</b></td><td>{{team.name}}</td></tr>
+        </i>
     <hr />
     
 </div>
