@@ -10,26 +10,26 @@ td{
     color: white;
 }
 
-.atlantic {
+.Atlantic {
     background-color: green !important;
 }
 
-.central {
+.Central {
     background-color: orangered !important;
 }
 
-.southeast {
+.Southeast {
     background-color: blue !important;
 }
 
-.northwest {
+.Northwest {
     background-color: fuchsia !important;
 }
 
-.pacific {
+.Pacific {
     background-color: blueviolet !important;
 }
 
-.southwest {
+.Southwest {
     background-color: black !important;
 }
